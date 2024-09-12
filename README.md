@@ -12,7 +12,7 @@ Frontend: HTML, CSS, JavaScript
 Database: MariaDB
 
 # Clone the repository
-git clone https://github.com/yourusername/notes-app.git
+git clone https://github.com/erashish21/notes-app.git
 cd notes-app
 npm run build
 npm start
