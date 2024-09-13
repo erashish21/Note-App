@@ -8,7 +8,7 @@ const app = express();
 dotenv.config();
 
 
-app.use(express.static(path.join(__dirname, '../../frontend')));
+app.use(express.static(path.join(__dirname, '../public')));
 app.use(bodyParser.json());
 app.use('/api', noteRoutes);
 
